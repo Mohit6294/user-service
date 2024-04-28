@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-<<<<<<< HEAD
-    @GetMapping("/welcome")
-=======
     @GetMapping("/hello")
->>>>>>> 0a133b68b324515ca88a5bcc9778ca320ea533eb
     public String helloController(){
         return "Welcome from Kubernate pod container";
     }
